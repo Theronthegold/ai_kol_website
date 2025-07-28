@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>AI KOL</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
 </head>
 <body>
   <header>
@@ -29,17 +31,17 @@
       <p>AI KOL은 전 세계 KOL들의 트윗/포스트를 실시간 요약해주는 AI 봇입니다.</p>
     </section>
 
-    <section id="about">
+    <section id="about" data-aos="fade-up">
       <h2>How It Works</h2>
       <img src="images/ai-kol-screenshot.png" alt="Screenshot of AI KOL" />
       <ul>
-        <li>참조 KOL 수: 142명</li>
-        <li>최근 24시간 요약된 메시지: 1,203건</li>
+        <li>참조 KOL 수: 1000명</li>
+        <li>최근 24시간 요약된 메시지: 10,203건</li>
         <li>요약 정확도: 91.3%</li>
       </ul>
     </section>
 
-    <section id="links">
+    <section id="links" data-aos="fade-up">
       <h2>Bot Links</h2>
       <ul>
         <li><a href="#">🇰🇷 Korea</a></li>
@@ -48,12 +50,12 @@
       </ul>
     </section>
 
-    <section id="roadmap">
+    <section id="roadmap" data-aos="fade-up">
       <h2>Roadmap (Coming Soon)</h2>
       <p>- Q3 2025: 구독형 서비스 런칭<br>- Q4 2025: X(Twitter) API 정식 연동<br>- 2026: 트렌드 분석 기능 추가</p>
     </section>
 
-    <section id="subscribe">
+    <section id="subscribe" data-aos="fade-up">
       <h2>Subscribe</h2>
       <p>AI KOL을 정기적으로 구독하고 최신 트렌드를 받아보세요.</p>
       <a class="btn" href="#">🔗 구독하기</a>
@@ -66,9 +68,15 @@
   </main>
 
   <footer>
-    <div class="container">
+    <div class="container" data-aos="fade-up">
       <p>&copy; 2025 AI KOL. All rights reserved.</p>
     </div>
   </footer>
+  <!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
